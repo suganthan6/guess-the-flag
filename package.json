@@ -1,0 +1,53 @@
+{
+  "name": "flags-quiz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/react": "^11.11.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "knuth-shuffle-seeded": "^1.0.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "what-input": "^5.2.10"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "simple-import-sort"
+    ],
+    "rules": {
+      "sort-imports": "off",
+      "import/order": "off",
+      "simple-import-sort/sort": "error"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5",
+    "@emotion/babel-plugin": "^11.11.0",
+    "customize-cra": "^1.0.0",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "react-app-rewired": "^2.1.8"
+  }
+}

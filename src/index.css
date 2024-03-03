@@ -1,0 +1,40 @@
+html,
+body,
+#root,
+.main {
+  height: 100%;
+}
+
+.main {
+  position: relative;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ropa Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size: 20px;
+  background: linear-gradient(to right,#f648d2,#0bf7e6);
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1, h2 {
+  font-family: 'Ranchers', cursive;
+  color: #ffffff;
+  text-shadow: 2px 2px #5a5959;
+  margin-top: 0;
+}
