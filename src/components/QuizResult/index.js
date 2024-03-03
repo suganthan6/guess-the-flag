@@ -1,1 +1,0 @@
-export { QuizResult } from "./QuizResult";
